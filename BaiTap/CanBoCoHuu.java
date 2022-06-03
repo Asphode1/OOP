@@ -40,7 +40,7 @@ public class CanBoCoHuu extends NhanVien {
   @Override
   public void inTTin() {
     System.out.println("Tên: " + getTenNhanVien());
-    System.out.println("Vị trí: Cán Bộ Cố Hữu");
+    System.out.println("Vị trí: Cán Bộ Cơ Hữu");
     System.out.println("Lương: " + String.format("%.2f", tinhLuong()) + "VND");
     System.out.println("Phụ cấp: 0");
     System.out.println("Hoa hồng: 0");
